@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-const About = () => {
+const AboutO = () => {
   const team = [
     {
       name: "Aaisha Albreiki",
@@ -49,4 +49,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutO;

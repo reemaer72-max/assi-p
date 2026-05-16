@@ -3,7 +3,7 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setCurrentUser } from "../Features/UserSlice";
 import { getStoredUser } from "../utils/storage";
-
+import Location from "./Location";
 const Profile = () => {
   const dispatch = useDispatch();
   const reduxUser = useSelector((state) => state.users.user);
@@ -69,6 +69,7 @@ const Profile = () => {
               <strong>Current Income:</strong> {user.income}
             </p>
 
+            <Location />
             <input
               type="number"
               className="form-control mb-3"
@@ -78,7 +79,7 @@ const Profile = () => {
             />
 
             <button className="btn btn-primary w-100" onClick={handleUpdate}>
-              Save Income
+              Save
             </button>
           </>
         ) : (
