@@ -4,7 +4,7 @@ import {
   clearStoredUser,
   getStoredUser,
   setStoredUser,
-} from "../utils/storage";
+} from "../utils/storage.js";
 
 const initialState = {
   user: null,

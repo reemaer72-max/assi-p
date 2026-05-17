@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import { getStoredUser } from "../utils/storage";
+import { getStoredUser } from "../utils/storage.js";
 
 const getCurrentUser = () => {
   const user = getStoredUser();
