@@ -8,8 +8,8 @@ import {
   Tooltip,
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
-import { getExpenses, resetExpenses } from "../Features/ExpenseSlice";
-import { getStoredUser } from "../utils/storage";
+import { getExpenses, resetExpenses } from "../Features/ExpenseSlice.js";
+import { getStoredUser } from "../utils/storage.js";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
