@@ -6,18 +6,18 @@ import {
 } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Login from "./Components/Login";
-import Register from "./Components/Register";
-import Home from "./Components/Home";
-import Header from "./Components/Header";
-import EditExpense from "./Components/EditExpense";
-import AddExpense from "./Components/AddExpense";
-import ExpenseList from "./Components/ExpenseList";
-import Profile from "./Components/Profile";
-import About from "./Components/About";
-import { fetchCurrentUser } from "./Features/UserSlice";
-import ProtectedRoute from "./ProtectedRoute";
-import { getStoredUser } from "./utils/storage";
+import Login from "./Components/Login.js";
+import Register from "./Components/Register.js";
+import Home from "./Components/Home.js";
+import Header from "./Components/Header.js";
+import EditExpense from "./Components/EditExpense.js";
+import AddExpense from "./Components/AddExpense.js";
+import ExpenseList from "./Components/ExpenseList.js";
+import Profile from "./Components/Profile.js";
+import About from "./Components/AboutO.js";
+import { fetchCurrentUser } from "./Features/UserSlice.js";
+import ProtectedRoute from "./ProtectedRoute.js";
+import { getStoredUser } from "./utils/storage.js";
 
 function App() {
   const dispatch = useDispatch();
